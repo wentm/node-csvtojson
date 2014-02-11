@@ -1,34 +1,35 @@
 {
-    "name":"csvtojson",
-    "description":"A tool concentrating on converting csv data to JSON with customised parser supporting",
-    "author":"Keyang Xiang <keyang.xiang@gmail.com>",
-    "homepage": "http://keyangxiang.com/blog/csv2json/",
-    "bugs": "https://github.com/Keyang/node-csvtojson/issues",
-     "repository": {
-        "type": "git",
-        "url": "https://github.com/Keyang/node-csvtojson.git"
-      },
-    "contributors":[
-        {
-            "name":"Keyang Xiang",
-            "email":"keyang.xiang@gmail.com"
-        }
-    ],
-    "version":"0.1.7",
-    "dependencies":{
-        "express":"3.4.4",
-        "csv":"0.3.6"
-    },
-    "keywords":[
-        "csv",
-        "json",
-        "convert",
-        "parser",
-        "exntendible",
-        "plugin"
-    ],
-    "bin":{
-        "csvtojson":"./bin/csvtojson"
+  "name": "tojson",
+  "description": "A tool concentrating on converting csv data to JSON with customised parser supporting",
+  "author": "dengzhao <dengbotian@outlook.com>",
+  "homepage": "https://github.com/dengbotian/node-csvtojson",
+  "bugs": "https://github.com/dengbotian/node-csvtojson/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dengbotian/node-csvtojson.git"
+  },
+  "contributors": [
+    {
+      "name": "dengzhao",
+      "email": "dengbotian@outlook.com"
     }
+  ],
+  "version": "0.1.7",
+  "dependencies": {
+    "express": "3.4.4",
+    "csv": "0.3.6",
+    "commander": "~2.1.0",
+    "chokidar": "~0.8.1"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "convert",
+    "parser",
+    "exntendible",
+    "plugin"
+  ],
+  "bin": {
+    "tojson": "./bin/tojson"
+  }
 }
-
